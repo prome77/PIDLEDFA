@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="RED">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="GREEN">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="BLUE">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="LED_A">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="FPGA_RST" Dir="IN"/>
+		<Port Id="FPGA_CLK0" Dir="IN"/>
+		<Port Id="FPGA_CLK1" Dir="IN"/>
+		<Port Id="VSYNC" Dir="IN"/>
+		<Port Id="HSYNC" Dir="IN"/>
+		<Port Id="PCLK" Dir="IN"/>
+		<Port Id="DE" Dir="IN"/>
+		<Port Id="I2C_SCL_EDID" Dir="IN"/>
+		<Port Id="I2C_SDA_EDID" Dir="INOUT"/>
+		<Port Id="DVI_HPD" Dir="OUT"/>
+		<Port Id="LED_LDM" Dir="OUT"/>
+		<Port Id="LED_STAT" Dir="OUT"/>
+		<Port Id="LED_RGB" Dir="OUT"/>
+		<Port Id="LED_CLK" Dir="OUT"/>
+		<Port Id="LED_LT" Dir="OUT"/>
+		<Port Id="LED_OE" Dir="OUT"/>
+		<Port Id="LED_0_R0" Dir="OUT"/>
+		<Port Id="LED_0_R1" Dir="OUT"/>
+		<Port Id="LED_0_G0" Dir="OUT"/>
+		<Port Id="LED_0_G1" Dir="OUT"/>
+		<Port Id="LED_0_B0" Dir="OUT"/>
+		<Port Id="LED_0_B1" Dir="OUT"/>
+		<Port Id="LED_1_R0" Dir="OUT"/>
+		<Port Id="LED_1_R1" Dir="OUT"/>
+		<Port Id="LED_1_B0" Dir="OUT"/>
+		<Port Id="LED_1_B1" Dir="OUT"/>
+		<Port Id="LED_1_G0" Dir="OUT"/>
+		<Port Id="LED_1_G1" Dir="OUT"/>
+		<Port Id="LED_2_R0" Dir="OUT"/>
+		<Port Id="LED_2_R1" Dir="OUT"/>
+		<Port Id="LED_2_G0" Dir="OUT"/>
+		<Port Id="LED_2_G1" Dir="OUT"/>
+		<Port Id="LED_2_B0" Dir="OUT"/>
+		<Port Id="LED_2_B1" Dir="OUT"/>
+		<Port Id="LED_3_R0" Dir="OUT"/>
+		<Port Id="LED_3_R1" Dir="OUT"/>
+		<Port Id="LED_3_G0" Dir="OUT"/>
+		<Port Id="LED_3_G1" Dir="OUT"/>
+		<Port Id="LED_3_B0" Dir="OUT"/>
+		<Port Id="LED_3_B1" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

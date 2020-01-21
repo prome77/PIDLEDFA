@@ -1,0 +1,274 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Oct 11 19:02:38 2019
+# Process ID: 4908
+# Log file: D:/00-PAPIS/LED_MATRIX_FPGA/PID_LED/PID_LED/planAhead_run_2/planAhead.log
+# Journal file: D:/00-PAPIS/LED_MATRIX_FPGA/PID_LED/PID_LED/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/00-PAPIS/LED_MATRIX_FPGA/PID_LED/PID_LED/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVTTL [get_ports [list {RED[7]} {RED[6]} {RED[5]} {RED[4]} {RED[3]} {RED[2]} {RED[1]} {RED[0]}]]
+set_property iostandard LVTTL [get_ports [list {LED_A[3]} {LED_A[2]} {LED_A[1]} {LED_A[0]}]]
+set_property iostandard LVTTL [get_ports [list {GREEN[7]} {GREEN[6]} {GREEN[5]} {GREEN[4]} {GREEN[3]} {GREEN[2]} {GREEN[1]} {GREEN[0]}]]
+set_property iostandard LVTTL [get_ports [list {BLUE[7]} {BLUE[6]} {BLUE[5]} {BLUE[4]} {BLUE[3]} {BLUE[2]} {BLUE[1]} {BLUE[0]}]]
+startgroup
+set_property package_pin P34 [get_ports {BLUE[7]}]
+endgroup
+startgroup
+set_property package_pin P137 [get_ports {BLUE[6]}]
+endgroup
+startgroup
+set_property package_pin P134 [get_ports {BLUE[7]}]
+endgroup
+startgroup
+set_property package_pin P137 [get_ports {BLUE[6]}]
+endgroup
+startgroup
+set_property package_pin P138 [get_ports {BLUE[5]}]
+endgroup
+startgroup
+set_property package_pin P139 [get_ports {BLUE[4]}]
+endgroup
+startgroup
+set_property package_pin P140 [get_ports {BLUE[3]}]
+endgroup
+startgroup
+set_property package_pin P141 [get_ports {BLUE[2]}]
+endgroup
+startgroup
+set_property package_pin P142 [get_ports {BLUE[1]}]
+endgroup
+startgroup
+set_property package_pin P143 [get_ports {BLUE[0]}]
+endgroup
+startgroup
+set_property package_pin P117 [get_ports {GREEN[7]}]
+endgroup
+startgroup
+set_property package_pin P118 [get_ports {GREEN[6]}]
+endgroup
+startgroup
+set_property package_pin P119 [get_ports {GREEN[5]}]
+endgroup
+startgroup
+set_property package_pin P120 [get_ports {GREEN[4]}]
+endgroup
+startgroup
+set_property package_pin P121 [get_ports {GREEN[3]}]
+endgroup
+startgroup
+set_property package_pin P123 [get_ports {GREEN[2]}]
+endgroup
+startgroup
+set_property package_pin P124 [get_ports {GREEN[1]}]
+endgroup
+startgroup
+set_property package_pin P126 [get_ports {GREEN[0]}]
+endgroup
+startgroup
+set_property package_pin P83 [get_ports {LED_A[0]}]
+endgroup
+startgroup
+set_property package_pin P82 [get_ports {LED_A[1]}]
+endgroup
+startgroup
+set_property package_pin P81 [get_ports {LED_A[2]}]
+endgroup
+startgroup
+set_property package_pin P80 [get_ports {LED_A[3]}]
+endgroup
+startgroup
+set_property package_pin P102 [get_ports {RED[7]}]
+endgroup
+startgroup
+set_property package_pin P104 [get_ports {RED[6]}]
+endgroup
+startgroup
+set_property package_pin P105 [get_ports {RED[5]}]
+endgroup
+startgroup
+set_property package_pin P111 [get_ports {RED[4]}]
+endgroup
+startgroup
+set_property package_pin P112 [get_ports {RED[3]}]
+endgroup
+startgroup
+set_property package_pin P114 [get_ports {RED[2]}]
+endgroup
+startgroup
+set_property package_pin P115 [get_ports {RED[1]}]
+endgroup
+startgroup
+set_property package_pin P116 [get_ports {RED[0]}]
+endgroup
+set_property iostandard LVTTL [get_ports [list DE]]
+set_property iostandard LVTTL [get_ports [list LED_1_R0]]
+startgroup
+set_property package_pin P127 [get_ports DE]
+endgroup
+startgroup
+set_property package_pin P144 [get_ports DVI_HPD]
+endgroup
+startgroup
+set_property package_pin P100 [get_ports I2C_SCL_EDID]
+endgroup
+startgroup
+set_property package_pin P99 [get_ports I2C_SDA_EDID]
+endgroup
+startgroup
+set_property package_pin P131 [get_ports HSYNC]
+endgroup
+startgroup
+set_property package_pin P95 [get_ports FPGA_RST]
+endgroup
+startgroup
+set_property package_pin P94 [get_ports FPGA_CLK0]
+endgroup
+startgroup
+set_property package_pin P93 [get_ports FPGA_CLK1]
+endgroup
+startgroup
+set_property package_pin P27 [get_ports LED_0_B0]
+endgroup
+startgroup
+set_property package_pin P26 [get_ports LED_0_B1]
+endgroup
+startgroup
+set_property package_pin P30 [get_ports LED_0_G0]
+endgroup
+startgroup
+set_property package_pin P29 [get_ports LED_0_G1]
+endgroup
+startgroup
+set_property package_pin P33 [get_ports LED_0_R0]
+endgroup
+startgroup
+set_property package_pin P32 [get_ports LED_0_R1]
+endgroup
+startgroup
+set_property package_pin P46 [get_ports LED_1_B0]
+endgroup
+startgroup
+set_property package_pin P45 [get_ports LED_1_B1]
+endgroup
+startgroup
+set_property package_pin P48 [get_ports LED_1_G0]
+endgroup
+startgroup
+set_property package_pin P47 [get_ports LED_1_G1]
+endgroup
+startgroup
+set_property package_pin P51 [get_ports LED_1_R0]
+endgroup
+startgroup
+set_property package_pin P50 [get_ports LED_1_R1]
+endgroup
+startgroup
+set_property package_pin P66 [get_ports LED_2_B0]
+endgroup
+startgroup
+set_property package_pin P62 [get_ports LED_2_B1]
+endgroup
+startgroup
+set_property package_pin P74 [get_ports LED_2_G0]
+endgroup
+startgroup
+set_property package_pin P67 [get_ports LED_2_G1]
+endgroup
+startgroup
+set_property package_pin P78 [get_ports LED_2_R0]
+endgroup
+startgroup
+set_property package_pin P75 [get_ports LED_2_R1]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports LED_3_B0]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports LED_3_B1]
+endgroup
+startgroup
+set_property package_pin P22 [get_ports LED_3_G0]
+endgroup
+startgroup
+set_property package_pin P21 [get_ports LED_3_G1]
+endgroup
+startgroup
+set_property package_pin P24 [get_ports LED_3_R0]
+endgroup
+startgroup
+set_property package_pin P23 [get_ports LED_3_R1]
+endgroup
+startgroup
+set_property package_pin P92 [get_ports LED_CLK]
+endgroup
+startgroup
+set_property package_pin P88 [get_ports LED_LT]
+endgroup
+startgroup
+set_property package_pin P87 [get_ports LED_OE]
+endgroup
+startgroup
+set_property package_pin P69 [get_ports LED_LDM]
+endgroup
+startgroup
+set_property package_pin P39 [get_ports LED_RGB]
+endgroup
+startgroup
+set_property package_pin P60 [get_ports LED_STAT]
+endgroup
+startgroup
+set_property package_pin P132 [get_ports VSYNC]
+endgroup
+startgroup
+set_property package_pin P133 [get_ports PCLK]
+endgroup
+save_constraints
+set_property iostandard LVTTL [get_ports [list DVI_HPD]]
+set_property iostandard LVCMOS25 [get_ports [list FPGA_CLK0]]
+set_property iostandard LVTTL [get_ports [list VSYNC]]
+set_property iostandard LVCMOS25 [get_ports [list PCLK]]
+save_constraints
+refresh_design
+set_property iostandard LVCMOS25 [get_ports [list FPGA_CLK1]]
+set_property iostandard LVCMOS25 [get_ports [list FPGA_RST]]
+set_property iostandard LVTTL [get_ports [list FPGA_CLK1]]
+set_property iostandard LVTTL [get_ports [list FPGA_RST]]
+set_property iostandard LVTTL [get_ports [list HSYNC]]
+set_property iostandard LVTTL [get_ports [list I2C_SCL_EDID]]
+set_property iostandard LVTTL [get_ports [list I2C_SDA_EDID]]
+set_property iostandard LVTTL [get_ports [list LED_0_B0]]
+set_property iostandard LVTTL [get_ports [list LED_0_B1]]
+set_property iostandard LVTTL [get_ports [list LED_0_G1]]
+set_property iostandard LVTTL [get_ports [list LED_0_G0]]
+save_constraints
+set_property iostandard LVTTL [get_ports [list LED_0_R0]]
+set_property iostandard LVTTL [get_ports [list LED_0_R1]]
+set_property iostandard LVTTL [get_ports [list LED_1_B0]]
+set_property iostandard LVTTL [get_ports [list LED_1_B1]]
+set_property iostandard LVTTL [get_ports [list LED_1_G0]]
+set_property iostandard LVTTL [get_ports [list LED_1_G1]]
+set_property iostandard LVTTL [get_ports [list LED_1_R1]]
+set_property iostandard LVTTL [get_ports [list LED_2_B0]]
+set_property iostandard LVTTL [get_ports [list LED_2_B1]]
+set_property iostandard LVTTL [get_ports [list LED_2_G0]]
+set_property iostandard LVTTL [get_ports [list LED_2_G1]]
+set_property iostandard LVTTL [get_ports [list LED_2_R0]]
+set_property iostandard LVTTL [get_ports [list LED_2_R1]]
+set_property iostandard LVTTL [get_ports [list LED_3_B0]]
+set_property iostandard LVTTL [get_ports [list LED_3_B1]]
+set_property iostandard LVTTL [get_ports [list LED_3_G0]]
+set_property iostandard LVTTL [get_ports [list LED_3_G1]]
+set_property iostandard LVTTL [get_ports [list LED_3_R0]]
+set_property iostandard LVTTL [get_ports [list LED_3_R1]]
+set_property iostandard LVTTL [get_ports [list LED_CLK]]
+set_property iostandard LVTTL [get_ports [list LED_LDM]]
+set_property iostandard LVTTL [get_ports [list LED_LT]]
+set_property iostandard LVTTL [get_ports [list LED_OE]]
+set_property iostandard LVTTL [get_ports [list LED_RGB]]
+set_property iostandard LVTTL [get_ports [list LED_STAT]]
+set_property iostandard I2C [get_ports [list I2C_SDA_EDID]]
+set_property iostandard I2C [get_ports [list I2C_SCL_EDID]]
+save_constraints

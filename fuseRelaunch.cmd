@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/00-PAPIS/LED_MATRIX_FPGA/PID_LED/PID_LED/tb_fpga_isim_beh.exe" -prj "D:/00-PAPIS/LED_MATRIX_FPGA/PID_LED/PID_LED/tb_fpga_beh.prj" "work.tb_fpga" "work.glbl" 
